@@ -7,6 +7,8 @@ Disponível em: [![Streamlit App](https://static.streamlit.io/badges/streamlit_b
 
 ou https://share.streamlit.io/erickeloi/dashcounting/main
 
+Projeto que desenvolvi para o trabalho de programação 1.
+
 ### Imagens do app abaixo:
 
 #### Imagem 1:
