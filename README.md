@@ -3,9 +3,11 @@
 
 ## Busca informações de CNPJ's e extrai em formato de Excel.
 
-### Imagens do app, disponível em: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/erickeloi/dashcounting/main)
+disponível em: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/erickeloi/dashcounting/main)
 
 ou https://share.streamlit.io/erickeloi/dashcounting/main
+
+### Imagens do app abaixo:
 
 ![image](https://user-images.githubusercontent.com/65841249/177694125-788d0754-6da3-4ca0-85f2-ccdc1638d4dd.png)
 
