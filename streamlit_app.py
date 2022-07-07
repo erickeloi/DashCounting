@@ -10,16 +10,6 @@ from io import BytesIO
 
 from busca_na_api import *
 
-# Podemos usar estado de sessão, session state do streamlit para manter variáveis persistentes entre apps do app
-
-# TO-DO
-# Create a Pandas dataframe with the cnpj data and concat with the posteriors cnpj's.
-
-# Create a session state that don't loss the 'cnpj dataframe' beetween pages.
-
-# Create the pages and buttons/interaction to download the xlsx of the dataframe 
-
-# Create the integration with the donwload button to get the xlsx of the dataframe.
 if 'empresas' not in st.session_state:
     st.session_state.empresas = None
 
@@ -127,14 +117,7 @@ def search_info_new_cnpj():
 def search_and_download():
     ver_lista_interesse = st.checkbox("Verificar empresas na lista de interesse")
     if ver_lista_interesse:
-
-        #for empresa in st.session_state.local_storage:
-        #    print(empresa['nome'])
-        #    print(type(empresa))
-        #    final_df = pd.concat([final_df], [empresa])
-
-        # GET the dataframe working
-       
+        
         st.write(st.session_state.empresas)
         buffer = BytesIO()
         # Create a Pandas Excel writer using XlsxWriter as the engine.
