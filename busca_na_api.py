@@ -15,6 +15,7 @@ def get_api_info(cnpj_id):
 
         if contador == 10:
             print("Servidor indisponível, por favor tentar novamente mais tarde.")
+            contador = 0
             return 'Servidor Indisponivel'
 
         print(f"Servidor Ocupado! Realizando pedido pela {contador+1}° vez... (Máximo de 10 tentativas)\n")
