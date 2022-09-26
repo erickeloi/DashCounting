@@ -7,7 +7,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :sparkles: Nome        | **DashCounting**
 | :label: Tecnologias | Python, Streamlit, Pandas
 | :rocket: URL         | https://share.streamlit.io/erickeloi/dashcounting/main
-| :fire: Desafio     | Projeto de programação 1
+| :fire: Desafio     | -
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![image](https://user-images.githubusercontent.com/65841249/192380690-ee508a96-297e-4ce5-ba88-83fff1b7e452.png#vitrinedev)
