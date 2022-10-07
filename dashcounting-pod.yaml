@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dashcounting
+  labels:
+    app: dashcounting-app
+spec:
+  containers:
+    - name: dashcounting-container
+      image: erickeloi/dashcounting
+      ports:
+        - containerPort: 8501
